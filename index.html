@@ -14,164 +14,41 @@
     />
 
     <!-- 自訂 CSS -->
-    <link rel="stylesheet" href="" />
-    <style text="text/css">
-      body {
-        background: url(nature.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        margin: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="css/main.css" />
 
     <!-- 頁面標題 -->
     <title>Around the House</title>
   </head>
   <!-- 頁面開始 -->
   <body>
-    <!-- 頂部選單 -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="d-inline-block align-text-top"
-            >
-              <path
-                d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z"
-                fill="black"
-              />
-            </svg>
-            Moss removel
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#J1">Video</a>
-              <a class="nav-link" href="#J2">Before | After</a>
-              <a class="nav-link" href="#">Review</a>
-              <a class="nav-link" href="#">Social</a>
+    <div class="hero-img"></div>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <svg class="d-inline-block align-text-top" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 13H4V20C4 21.103 4.897 22 6 22H18C19.103 22 20 21.103 20 20V13H21C21.1978 13 21.391 12.9413 21.5555 12.8314C21.7199 12.7215 21.848 12.5654 21.9237 12.3827C21.9993 12.2 22.0192 11.9989 21.9806 11.805C21.942 11.611 21.8468 11.4329 21.707 11.293L12.707 2.293C12.6142 2.20006 12.504 2.12632 12.3827 2.07601C12.2614 2.0257 12.1313 1.9998 12 1.9998C11.8687 1.9998 11.7386 2.0257 11.6173 2.07601C11.496 2.12632 11.3858 2.20006 11.293 2.293L2.293 11.293C2.15319 11.4329 2.05798 11.611 2.01942 11.805C1.98085 11.9989 2.00065 12.2 2.07632 12.3827C2.15199 12.5654 2.28013 12.7215 2.44454 12.8314C2.60895 12.9413 2.80225 13 3 13ZM10 20V15H14V20H10ZM12 4.414L18 10.414V15L18.001 20H16V15C16 13.897 15.103 13 14 13H10C8.897 13 8 13.897 8 15V20H6V10.414L12 4.414Z" fill="black"/>
+              </svg>
+              Home
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </header>
     </div>
 
-    <img
-      class="img-fluid"
-      src="test.jpg"
-      alt=""
-      style="
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        object-position: 50% 50%;
-      "
-    />
-
-    <!-- 分隔線 -->
-    <div class="container">
-      <hr />
     </div>
 
-    <!-- 標題1 -->
-    <div id="J1" class="container">
-      <h1>Video</h1>
-    </div>
-    <!-- 影片播放 -->
-    <div class="container">
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/QrGw-5BSLMk"
-          title="YouTube video"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-
-    <!-- 分隔線 -->
-    <div class="container">
-      <hr />
-    </div>
-
-    <!-- 標題2 -->
-    <div id="J2" class="container">
-      <h1>Before and After</h1>
-    </div>
-    <!-- 圖片輪播 -->
-    <div class="container">
-      <div
-        id="carouselExampleSlidesOnly"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="brush1.png"
-              class="d-block w-100"
-              alt=""
-              style="
-                width: 1200px;
-                height: 628px;
-                object-fit: contain;
-                object-position: 50% 50%;
-              "
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="brush2.png"
-              class="d-block w-100"
-              alt=""
-              style="
-                width: 1200px;
-                height: 628px;
-                object-fit: contain;
-                object-position: 50% 50%;
-              "
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="brush3.png"
-              class="d-block w-100"
-              alt=""
-              style="
-                width: 1200px;
-                height: 628px;
-                object-fit: contain;
-                object-position: 50% 50%;
-              "
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 分隔線 -->
-    <div class="container">
-      <hr />
-    </div>
     <!-- 以下忽略 -->
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
