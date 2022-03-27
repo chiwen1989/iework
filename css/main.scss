@@ -1,16 +1,35 @@
+body {
+  margin: 0 1.5em;
+}
+
 .hero-img {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../images/hero.jpg);
+  background: url(../images/moss.jpg);
   background-size: cover;
   background-position-x: 20%;
   background-position-y: 20%;
   width: 100%;
   height: 100vh;
   z-index: -1;
-  -webkit-animation: introLoad 2s forwards;
   animation: introLoad 2s forwards;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2em;
+  line-height: 3.3rem;
+}
+.subhead {
+  font-size: 1.4rem;
+}
+
+section.hero {
+  color: white;
+  height: 90vh;
+  animation: moveDown 1s ease-in-out forwards;
+  opacity: 0;
 }
 
 @keyframes introLoad {
@@ -21,5 +40,15 @@
   to {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
