@@ -32,6 +32,18 @@ section.hero {
   opacity: 0;
 }
 
+.more-info img {
+  object-fit: contain;
+}
+
+.more-info .title {
+  font-size: 2rem;
+}
+
+.more-info .desc {
+  font-size: 1.4rem;
+}
+
 @keyframes introLoad {
   from {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
