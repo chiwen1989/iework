@@ -17,35 +17,12 @@ body {
           animation: introLoad 2s forwards;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-top: 2em;
-  line-height: 3.3rem;
-}
-
-.subhead {
-  font-size: 1.4rem;
-}
-
 section.hero {
   color: white;
   height: 90vh;
   -webkit-animation: moveDown 1s ease-in-out forwards;
           animation: moveDown 1s ease-in-out forwards;
   opacity: 0;
-}
-
-.more-info img {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.more-info .title {
-  font-size: 2rem;
-}
-
-.more-info .desc {
-  font-size: 1.4rem;
 }
 
 @-webkit-keyframes introLoad {
