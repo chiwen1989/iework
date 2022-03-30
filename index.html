@@ -26,125 +26,121 @@
   <body>
     <div class="hero-img"></div>
     <!-- 頂部選單 -->
-    <div class="wrapper">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand text-success" href="#">
-              <svg
-                class="d-inline-block align-text-top"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3 13H4V20C4 21.103 4.897 22 6 22H18C19.103 22 20 21.103 20 20V13H21C21.1978 13 21.391 12.9413 21.5555 12.8314C21.7199 12.7215 21.848 12.5654 21.9237 12.3827C21.9993 12.2 22.0192 11.9989 21.9806 11.805C21.942 11.611 21.8468 11.4329 21.707 11.293L12.707 2.293C12.6142 2.20006 12.504 2.12632 12.3827 2.07601C12.2614 2.0257 12.1313 1.9998 12 1.9998C11.8687 1.9998 11.7386 2.0257 11.6173 2.07601C11.496 2.12632 11.3858 2.20006 11.293 2.293L2.293 11.293C2.15319 11.4329 2.05798 11.611 2.01942 11.805C1.98085 11.9989 2.00065 12.2 2.07632 12.3827C2.15199 12.5654 2.28013 12.7215 2.44454 12.8314C2.60895 12.9413 2.80225 13 3 13ZM10 20V15H14V20H10ZM12 4.414L18 10.414V15L18.001 20H16V15C16 13.897 15.103 13 14 13H10C8.897 13 8 13.897 8 15V20H6V10.414L12 4.414Z"
-                  fill="white"
-                />
-              </svg>
-              Around<span class="text-danger">the</span>house
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-success" href="#">
+            <svg
+              class="d-inline-block align-text-top"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link text-light" aria-current="page" href="#"
-                  >Home</a
-                >
-                <a class="nav-link text-light" href="#">Features</a>
-                <a class="nav-link text-light" href="#">Pricing</a>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <!-- 頂部標題 -->
-      <section class="hero">
-        <h1 class="fs-1 fw-bolder mt-5 lh-lg">
-          This is the Title for this Page.
-        </h1>
-        <p class="fs-3">Here is for the explain.</p>
-      </section>
-
-      <!-- 中間照片 -->
-      <section>
-        <div class="row g-2 pb-5">
-          <!-- 相簿1 -->
-          <div class="col-md-4 d-flex justify-content-center">
-            <div class="card" style="width: 20rem">
-              <img src="images/brush1.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- 相簿2 -->
-          <div class="col-md-4 d-flex justify-content-center">
-            <div class="card" style="width: 20rem">
-              <img src="images/brush2.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-warning">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- 相簿3 -->
-          <div class="col-md-4 d-flex justify-content-center">
-            <div class="card" style="width: 20rem">
-              <img src="images/brush3.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-info">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 底部宣告 -->
-      <footer class="p-4 border-top">
-        <div
-          class="container align-items-center justify-content-between d-flex"
-        >
-          <p class="mb-0 text-muted">Copyright &copy; Aroundthehouse</p>
-
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link text-white bg-danger rounded-1" href="#"
-                >Top</a
+              <path
+                d="M3 13H4V20C4 21.103 4.897 22 6 22H18C19.103 22 20 21.103 20 20V13H21C21.1978 13 21.391 12.9413 21.5555 12.8314C21.7199 12.7215 21.848 12.5654 21.9237 12.3827C21.9993 12.2 22.0192 11.9989 21.9806 11.805C21.942 11.611 21.8468 11.4329 21.707 11.293L12.707 2.293C12.6142 2.20006 12.504 2.12632 12.3827 2.07601C12.2614 2.0257 12.1313 1.9998 12 1.9998C11.8687 1.9998 11.7386 2.0257 11.6173 2.07601C11.496 2.12632 11.3858 2.20006 11.293 2.293L2.293 11.293C2.15319 11.4329 2.05798 11.611 2.01942 11.805C1.98085 11.9989 2.00065 12.2 2.07632 12.3827C2.15199 12.5654 2.28013 12.7215 2.44454 12.8314C2.60895 12.9413 2.80225 13 3 13ZM10 20V15H14V20H10ZM12 4.414L18 10.414V15L18.001 20H16V15C16 13.897 15.103 13 14 13H10C8.897 13 8 13.897 8 15V20H6V10.414L12 4.414Z"
+                fill="white"
+              />
+            </svg>
+            Around<span class="text-danger">the</span>house
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link text-light" aria-current="page" href="#TL1"
+                >Area1</a
               >
-            </li>
-          </ul>
+              <a class="nav-link text-light" href="#">Area2</a>
+              <a class="nav-link text-light" href="#">Area3</a>
+            </div>
+          </div>
         </div>
-      </footer>
-    </div>
+      </nav>
+    </header>
+
+    <!-- 頂部標題 -->
+    <section id="TL1" class="hero">
+      <h1 class="fs-1 fw-bolder mt-5 lh-lg">
+        This is the Title for this Page.
+      </h1>
+      <p class="fs-3">Here is for the explain.</p>
+    </section>
+
+    <!-- 中間照片 -->
+    <section id="TL2">
+      <div class="row g-2 pb-5">
+        <!-- 相簿1 -->
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card" style="width: 20rem">
+            <img src="images/brush1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 相簿2 -->
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card" style="width: 20rem">
+            <img src="images/brush2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 相簿3 -->
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card" style="width: 20rem">
+            <img src="images/brush3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 測試區 -->
+
+    <!-- 底部宣告 -->
+    <footer class="p-4 border-top">
+      <div class="container align-items-center justify-content-between d-flex">
+        <p class="mb-0 text-muted">Copyright &copy; Aroundthehouse</p>
+
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-white bg-danger rounded-1" href="#">Top</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
     <!-- 以下忽略 -->
     <!-- Optional JavaScript; choose one of the two! -->
@@ -154,11 +150,5 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
