@@ -25,6 +25,47 @@ section.hero {
   opacity: 0;
 }
 
+.arrow {
+  position: fixed;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+
+.bouncy {
+  animation: JumpArrow 3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes JumpArrow {
+  0% {
+    transform: translate(0, 0px);
+    animation-timing-function: cubic-bezier(0.19, 0.28, 0.27, 1);
+  }
+  11% {
+    transform: translate(0, -25px) scaleX(0.8);
+    animation-timing-function: cubic-bezier(0.57, 0.01, 0.84, 0.5);
+  }
+  20% {
+    transform: translate(0, 0px) scaleY(0.8);
+    animation-timing-function: cubic-bezier(0.19, 0.28, 0.27, 1);
+  }
+  28% {
+    transform: translate(0, -10px);
+    animation-timing-function: cubic-bezier(0.57, 0.01, 0.84, 0.5);
+  }
+  36% {
+    transform: translate(0, 0px);
+    animation-timing-function: cubic-bezier(0.19, 0.28, 0.27, 1);
+  }
+  100% {
+    transform: translate(0, 0px);
+    animation-timing-function: cubic-bezier(0.19, 0.28, 0.27, 1);
+  }
+}
+
 @keyframes introLoad {
   from {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
