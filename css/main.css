@@ -1,7 +1,3 @@
-body {
-  margin: 0 1.5em;
-}
-
 .hero-img {
   position: absolute;
   top: 0;
@@ -15,6 +11,17 @@ body {
   z-index: -1;
   -webkit-animation: introLoad 2s forwards;
           animation: introLoad 2s forwards;
+}
+
+header,
+main,
+footer {
+  margin: 0 1.5em;
+}
+
+.thisa {
+  width: 100%;
+  height: 30vh;
 }
 
 section.hero {
