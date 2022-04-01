@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(103, 144, 210);
+}
+
 .hero-img {
   position: absolute;
   top: 0;
@@ -18,7 +22,7 @@ footer {
   margin: 0 1.5em;
 }
 
-section.hero {
+main section.fitscreen {
   color: white;
   height: 90vh;
   animation: moveDown 1s ease-in-out forwards;
