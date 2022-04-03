@@ -1,31 +1,51 @@
 body {
-  background-color: #6790d2;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-.hero-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url(../images/moss.jpg);
-  background-size: cover;
-  background-position-x: 20%;
-  background-position-y: 20%;
+/* header area*/
+header {
   width: 100%;
-  height: 100vh;
-  z-index: -1;
+  position: absolute;
+  z-index: 999;
+}
+
+/*main area*/
+.section-intro {
+  background-image: url(../images/moss.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-animation: introLoad 2s forwards;
           animation: introLoad 2s forwards;
 }
 
-header,
-main,
-footer {
-  margin: 0 1.5em;
+.section-intro .info-intro {
+  position: absolute;
+  top: 35%;
+  left: 15%;
 }
 
-main section.fitscreen {
+.section-intro h1 {
   color: white;
-  height: 90vh;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.section-intro p {
+  color: white;
+  margin: 0;
+}
+
+.fitscreen {
+  height: 100vh;
+  width: 100%;
+}
+
+.head-title {
   -webkit-animation: moveDown 1s ease-in-out forwards;
           animation: moveDown 1s ease-in-out forwards;
   opacity: 0;
