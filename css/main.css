@@ -3,6 +3,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* header area*/
 header {
   width: 100%;
@@ -11,22 +15,15 @@ header {
 }
 
 /*main area*/
+/*section intro*/
 .section-intro {
   background-image: url(../images/moss.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 100vh;
   -webkit-animation: introLoad 2s forwards;
           animation: introLoad 2s forwards;
-}
-
-.section-intro .info-intro {
-  position: absolute;
-  top: 35%;
-  left: 15%;
 }
 
 .section-intro h1 {
@@ -37,22 +34,18 @@ header {
 
 .section-intro p {
   color: white;
-  margin: 0;
 }
 
-.fitscreen {
-  height: 100vh;
-  width: 100%;
+.section-intro .info-intro {
+  position: absolute;
+  top: 35%;
+  left: 15%;
 }
 
-.head-title {
+.section-intro .head-title {
   -webkit-animation: moveDown 1s ease-in-out forwards;
           animation: moveDown 1s ease-in-out forwards;
   opacity: 0;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 @-webkit-keyframes introLoad {
