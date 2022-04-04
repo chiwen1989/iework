@@ -26,16 +26,6 @@ header {
           animation: introLoad 2s forwards;
 }
 
-.section-intro h1 {
-  color: white;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
-
-.section-intro p {
-  color: white;
-}
-
 .section-intro .info-intro {
   position: absolute;
   top: 35%;
@@ -46,6 +36,25 @@ header {
   -webkit-animation: moveDown 1s ease-in-out forwards;
           animation: moveDown 1s ease-in-out forwards;
   opacity: 0;
+}
+
+.section-intro .head-title h1 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.section-intro .head-title p {
+  color: white;
+}
+
+.section-sec {
+  height: 100vh;
+  width: 100%;
+}
+
+.section-sec img {
+  opacity: 0.8;
 }
 
 @-webkit-keyframes introLoad {

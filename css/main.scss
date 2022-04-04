@@ -24,16 +24,6 @@ header {
   height: 100vh;
   animation: introLoad 2s forwards;
 
-  h1 {
-    color: white;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-  }
-
-  p {
-    color: white;
-  }
-
   .info-intro {
     position: absolute;
     top: 35%;
@@ -43,6 +33,25 @@ header {
   .head-title {
     animation: moveDown 1s ease-in-out forwards;
     opacity: 0;
+
+    h1 {
+      color: white;
+      margin-top: 0;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      color: white;
+    }
+  }
+}
+
+.section-sec {
+  height: 100vh;
+  width: 100%;
+
+  img {
+    opacity: 0.8;
   }
 }
 
