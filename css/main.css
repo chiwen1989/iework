@@ -48,9 +48,36 @@ header {
   color: white;
 }
 
+.section-intro .scrollicon {
+  position: absolute;
+  color: #e2e2e2;
+  font-weight: 300;
+  left: 70%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 100px;
+  height: 50px;
+}
+
+.section-intro .scrollline {
+  position: absolute;
+  width: 1px;
+  height: 100px;
+  left: 70%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#1e4c21));
+  background-image: linear-gradient(to bottom, white, #1e4c21);
+}
+
 .section-sec {
-  height: 100vh;
+  height: auto;
   width: 100%;
+}
+
+.section-sec .bcolour {
+  background-color: #e6e6e6;
 }
 
 .section-sec img {

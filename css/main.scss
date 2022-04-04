@@ -44,11 +44,39 @@ header {
       color: white;
     }
   }
+
+  .scrollicon {
+    position: absolute;
+    color: rgb(226, 226, 226);
+    font-weight: 300;
+    left: 70%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    height: 50px;
+  }
+
+  .scrollline {
+    position: absolute;
+    width: 1px;
+    height: 100px;
+    left: 70%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(255, 255, 255),
+      rgb(30, 76, 33)
+    );
+  }
 }
 
 .section-sec {
-  height: 100vh;
+  height: auto;
   width: 100%;
+
+  .bcolour {
+    background-color: rgb(230, 230, 230);
+  }
 
   img {
     opacity: 0.8;
