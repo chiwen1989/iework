@@ -16,8 +16,8 @@ body {
 
 /* header area*/
 header {
-  width: 100%;
   position: absolute;
+  width: 100%;
   z-index: 999;
 }
 
@@ -94,14 +94,6 @@ header {
   img {
     opacity: 0.8;
   }
-}
-
-.footer-section {
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  left: 0;
-  bottom: 0;
 }
 
 @keyframes introLoad {
