@@ -65,7 +65,7 @@ header {
     left: 70%;
     transform: translateX(-50%);
     bottom: 100px;
-    height: 30px;
+    height: 50px;
   }
 
   .scrollline {
@@ -84,7 +84,7 @@ header {
 }
 
 .section-sec {
-  height: auto;
+  height: 100vh;
   width: 100%;
 
   .bcolour {
@@ -94,6 +94,14 @@ header {
   img {
     opacity: 0.8;
   }
+}
+
+.footer-section {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
 }
 
 @keyframes introLoad {

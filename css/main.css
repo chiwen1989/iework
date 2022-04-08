@@ -69,7 +69,7 @@ header {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   bottom: 100px;
-  height: 30px;
+  height: 50px;
 }
 
 .section-intro .scrollline {
@@ -85,7 +85,7 @@ header {
 }
 
 .section-sec {
-  height: auto;
+  height: 100vh;
   width: 100%;
 }
 
@@ -95,6 +95,14 @@ header {
 
 .section-sec img {
   opacity: 0.8;
+}
+
+.footer-section {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
 }
 
 @-webkit-keyframes introLoad {
