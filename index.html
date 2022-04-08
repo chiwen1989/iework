@@ -16,14 +16,6 @@
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-    <!-- 自訂 Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-
     <!-- 自訂 CSS -->
     <link rel="stylesheet" href="css/main.css" />
 
@@ -67,11 +59,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link text-light" aria-current="page" href="#TL1"
-                  >Area1</a
+                <a class="nav-link text-light" aria-current="page" href="#S1"
+                  >Cement</a
                 >
-                <a class="nav-link text-light" href="#">Area2</a>
-                <a class="nav-link text-light" href="#">Area3</a>
+                <a class="nav-link text-light" href="#S2">Asphalt</a>
+                <a class="nav-link text-light" href="#S3">Bricks</a>
               </div>
             </div>
           </div>
@@ -84,19 +76,23 @@
       <section class="section-intro">
         <div class="info-intro">
           <div class="head-title">
-            <h1 class="fs-1 fw-bold">Around The House</h1>
-            <p class="fs-5 fw-light">Write Something Here.</p>
+            <h1 class="rellax" data-rellax-speed="3">Around The House</h1>
+            <p class="rellax" data-rellax-speed="3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+              optio nisi rerum sapiente. Sit eos esse ullam cumque reprehenderit
+              impedit vero velit
+            </p>
           </div>
         </div>
         <span class="scrollicon">Scroll Down</span>
-        <span class="scrollline"></span>
+        <span class="scrollline rellax" data-rellax-speed="3"></span>
       </section>
 
       <section class="section-sec">
-        <div class="row d-flex g-0 align-items-center bcolour">
+        <div id="S1" class="row d-flex g-0 align-items-center bcolour">
           <div class="col-6 p-0 text-center">
             <h5 class="fs-3 fw-bold text-success">Cement</h5>
-            <p class="fs-6 fw-light">writing here.</p>
+            <p class="fs-6 fw-light">writ something here.</p>
           </div>
           <div class="col-6 p-0 text-end">
             <img
@@ -106,7 +102,7 @@
             />
           </div>
         </div>
-        <div class="row d-flex g-0 align-items-center bcolour">
+        <div id="S2" class="row d-flex g-0 align-items-center bcolour">
           <div class="col-6 p-0 text-start">
             <img
               class="img-fluid rounded-3"
@@ -116,13 +112,13 @@
           </div>
           <div class="col-6 p-0 text-center">
             <h5 class="fs-3 fw-bold text-success">Asphalt</h5>
-            <p class="fs-6 fw-light">writing here.</p>
+            <p class="fs-6 fw-light">writ something here.</p>
           </div>
         </div>
-        <div class="row d-flex g-0 align-items-center bcolour">
+        <div id="S3" class="row d-flex g-0 align-items-center bcolour">
           <div class="col-6 p-0 text-center">
             <h5 class="fs-3 fw-bold text-success">Bricks</h5>
-            <p class="fs-6 fw-light">writing here.</p>
+            <p class="fs-6 fw-light">writ something here.</p>
           </div>
           <div class="col-6 p-0 text-end">
             <img
@@ -160,6 +156,10 @@
       crossorigin="anonymous"
     ></script>
     <!-- 自訂 JS-->
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+      // Also can pass in optional settings block
+      var rellax = new Rellax(".rellax");
+    </script>
   </body>
 </html>

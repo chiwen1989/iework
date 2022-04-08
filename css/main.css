@@ -1,5 +1,12 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -40,12 +47,18 @@ header {
 
 .section-intro .head-title h1 {
   color: white;
-  margin-top: 0;
-  margin-bottom: 0.5em;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 1em;
+  margin: 0;
 }
 
 .section-intro .head-title p {
   color: white;
+  font-size: 1em;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 500px;
 }
 
 .section-intro .scrollicon {
@@ -56,7 +69,7 @@ header {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   bottom: 100px;
-  height: 50px;
+  height: 30px;
 }
 
 .section-intro .scrollline {
@@ -77,7 +90,7 @@ header {
 }
 
 .section-sec .bcolour {
-  background-color: #e6e6e6;
+  background-color: whitesmoke;
 }
 
 .section-sec img {
