@@ -29,14 +29,18 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   height: 100vh;
+  width: 100%;
   -webkit-animation: introLoad 2s forwards;
           animation: introLoad 2s forwards;
 }
 
 .section-intro .info-intro {
   position: absolute;
-  top: 35%;
-  left: 15%;
+  top: 40%;
+  left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section-intro .head-title {
@@ -63,34 +67,37 @@ header {
 
 .section-intro .scrollicon {
   position: absolute;
+  left: 70%;
+  bottom: 100px;
   color: #e2e2e2;
   font-weight: 300;
-  left: 70%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 100px;
-  height: 50px;
 }
 
 .section-intro .scrollline {
   position: absolute;
+  left: 70%;
+  bottom: 0;
   width: 1px;
   height: 100px;
-  left: 70%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#1e4c21));
   background-image: linear-gradient(to bottom, white, #1e4c21);
 }
 
 .section-sec {
-  height: auto;
+  height: 100vh;
   width: 100%;
 }
 
 .section-sec .bcolour {
   background-color: whitesmoke;
+}
+
+.section-sec h5 {
+  margin-top: 10px;
 }
 
 .section-sec img {
