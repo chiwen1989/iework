@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 body {
@@ -84,21 +89,9 @@ header {
   }
 }
 
-.section-sec {
-  height: 100vh;
-  width: 100%;
-
-  .bcolour {
-    background-color: whitesmoke;
-  }
-
-  h5 {
-    margin-top: 10px;
-  }
-
-  img {
-    opacity: 0.8;
-  }
+.mid-pic img {
+  height: auto;
+  max-width: 100%;
 }
 
 @keyframes introLoad {
