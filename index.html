@@ -212,6 +212,7 @@
     </script>
 
     <!-- Your SDK code -->
+
     <script>
       window.fbAsyncInit = function () {
         FB.init({
@@ -230,6 +231,7 @@
         fjs.parentNode.insertBefore(js, fjs);
       })(document, "script", "facebook-jssdk");
     </script>
+
     <!-- 以下忽略 -->
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -241,8 +243,9 @@
     <!-- 自訂 JS-->
     <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
     <script>
-      // Also can pass in optional settings block
-      var rellax = new Rellax(".rellax");
+      var rellax = new Rellax(".rellax", {
+        center: true,
+      });
     </script>
   </body>
 </html>
