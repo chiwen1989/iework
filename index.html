@@ -18,7 +18,7 @@
 
     <!-- 自訂 CSS -->
     <link rel="stylesheet" href="css/main.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- 頁面標題 -->
     <title>Around the House</title>
   </head>
@@ -120,7 +120,10 @@
             <h2 class="text-center text-success">Before and After</h2>
             <h1 class="text-danger text-center mb-0">Cement</h1>
           </div>
-          <div class="mid-pic row d-flex g-2 m-0 justify-content-around">
+          <div
+            class="mid-pic row d-flex g-2 m-0 justify-content-around"
+            data-aos="fade-left"
+          >
             <div class="col-sm-6">
               <img
                 class="img-fluid rounded-3"
@@ -147,7 +150,10 @@
           <div id="L2" class="mt-5">
             <h1 class="text-danger text-center mb-0">Asphalt</h1>
           </div>
-          <div class="mid-pic row d-flex g-2 m-0 justify-content-around">
+          <div
+            class="mid-pic row d-flex g-2 m-0 justify-content-around"
+            data-aos="fade-right"
+          >
             <div class="col-sm-6">
               <img
                 class="img-fluid rounded-3"
@@ -174,7 +180,10 @@
           <div id="L3" class="mt-5">
             <h1 class="text-danger text-center mb-0">Bricks</h1>
           </div>
-          <div class="mid-pic row d-flex g-2 m-0 justify-content-around">
+          <div
+            class="mid-pic row d-flex g-2 m-0 justify-content-around"
+            data-aos="fade-left"
+          >
             <div class="col-sm-6">
               <img
                 class="img-fluid rounded-3"
@@ -245,6 +254,15 @@
     <script>
       var rellax = new Rellax(".rellax", {
         center: true,
+      });
+    </script>
+
+    <!-- aos JS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
       });
     </script>
   </body>
